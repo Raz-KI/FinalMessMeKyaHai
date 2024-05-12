@@ -11,7 +11,7 @@ dateT = str(dateT.date())
 dateF=dateT
 dateT = dateT[-2:]
 dateT = int(dateT)
-dateT=1
+#dateT=1
 
 
 @app.route('/')
