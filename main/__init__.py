@@ -11,6 +11,6 @@ app.config['SQLALCHEMY_DATABASE_URI']=os.environ.get("DATABASE_URL")
 
 
 db =SQLAlchemy(app)
-db.init_app(app)
+
 bcrypt =Bcrypt(app)
 from main import routes
